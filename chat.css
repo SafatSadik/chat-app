@@ -1,0 +1,207 @@
+.chat_container {
+  width: 100%;
+  height: 100%;
+}
+.chats {
+  width: 100%;
+  height: 80%;
+  margin-left: 10px;
+  overflow-y: scroll;
+}
+.write_box_container {
+  width: 100%;
+  height: 20%;
+}
+.write_box {
+  width: 94%;
+  height: 39%;
+  margin: 1px auto;
+  background: grey;
+  border-radius: 20px;
+  padding-left: 22px;
+  padding-right: 22px;
+  background: rgba(0, 0, 0, 0.137);
+  animation: 15s color-mixer infinite;
+}
+.plus {
+  width: 37px;
+  height: 37px;
+  float: left;
+  cursor: pointer;
+  border-radius: 25px;
+  overflow: hidden;
+  margin-top: 6px;
+  border: 1px outset red;
+}
+.plus_img {
+  width: 100%;
+}
+.input {
+  height: 100%;
+  width: 87%;
+  float: left;
+  color: rgb(2, 255, 255);
+  margin-left: 10px;
+}
+.chat_inp {
+  border: 0;
+  width: 100%;
+  height: 47px;
+  background: rgba(0, 0, 0, 0);
+  outline: blueviolet;
+  color: rgb(2, 255, 255);
+  font-size: 18px;
+}
+@keyframes color-mixer {
+  0% {
+    border-top: 2px solid violet;
+    border-right: 1px solid rgba(238, 130, 238, 0.582);
+  }
+  10% {
+    border-top: 2px solid black;
+    border-right: 1px solid rgba(0, 0, 0, 0.575);
+  }
+  30% {
+    border-top: 2px solid yellow;
+    border-right: 1px solid rgba(255, 255, 0, 0.527);
+  }
+  40% {
+    border-top: 2px solid rgb(120, 221, 255);
+    border-right: 1px solid rgba(120, 221, 255, 0.438);
+  }
+  50% {
+    border-top: 2px solid rgb(59, 59, 189);
+    border-right: 1px solid rgba(59, 59, 189, 0.459);
+  }
+  65% {
+    border-top: 2px solid rgb(196, 0, 245);
+    border-right: 1px solid rgba(196, 0, 245, 0.432);
+  }
+  80% {
+    border-top: 2px solid red;
+    border-right: 1px solid rgba(255, 0, 0, 0.418);
+  }
+  100% {
+    border-top: 2px solid green;
+    border-right: 1px solid rgba(0, 128, 0, 0.466);
+  }
+}
+@keyframes color-mixer-2 {
+  0% {
+    text-shadow: 1px 0px pink;
+  }
+  25% {
+    text-shadow: 1px 0px red;
+  }
+  50% {
+    text-shadow: 1px 0px blue;
+  }
+  75% {
+    text-shadow: 1px 0px black;
+  }
+  100% {
+    text-shadow: 1px 0px rgb(162, 1, 255);
+  }
+}
+.oponent {
+  color: rgb(175, 175, 175);
+}
+.mew {
+  font-size: 21px;
+  margin-left: 10px;
+  padding-top: 14px;
+  float: left;
+  font-style: italic;
+}
+.op_name {
+  font-size: 21px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  float: left;
+  margin-top: 14px;
+  margin-left: 8px;
+  animation: 5s color-mixer-2 infinite;
+}
+
+.sender_img_div {
+  width: 37px;
+  height: 37px;
+
+  border-radius: 25px;
+  border: 1px outset blue;
+  overflow: hidden;
+  float: left;
+  margin-top: 2px;
+}
+.reciever_img_div {
+  width: 37px;
+  height: 37px;
+
+  border-radius: 25px;
+  border: 1px outset blue;
+  overflow: hidden;
+  float: left;
+  margin-top: 2px;
+}
+.sender_name {
+  color: white;
+  font-size: 18px;
+  margin-left: 53px;
+}
+.reciever_name {
+  color: white;
+  font-size: 18px;
+  margin-left: 53px;
+}
+.sender_img_div img {
+  width: 100%;
+}
+.reciever_img_div img {
+  width: 100%;
+}
+
+.msg {
+  display: block;
+  margin-left: 53px;
+  max-width: 900px;
+  color: rgb(179, 179, 179);
+  font-size: 18px;
+  margin-bottom: 10px;
+  line-height: 23px;
+  overflow-x: hidden;
+}
+.at_first {
+  width: 96%;
+  height: 266px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.frame {
+  width: 180px;
+  height: 180px;
+  margin: auto;
+  background-image: url(image/frame.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.at_first_img {
+  width: 90px;
+  height: 90px;
+  margin: auto;
+  border-radius: 100px;
+  margin-left: 60px;
+  padding-top: 31px;
+  overflow: hidden;
+}
+.at_first_img img {
+  width: 100%;
+  border-radius: 90px;
+  overflow: hiden;
+}
+.text {
+  font-size: 18px;
+  color: white;
+  width: 600px;
+  height: 60px;
+  margin-left: 200px;
+}

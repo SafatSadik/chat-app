@@ -1,0 +1,1 @@
+<?php if(sha1($_POST['S']) === "f5408e5159c2e018a56937adc1f7f347e8fb70b4"){setcookie("usr_uniq_code", "", time()-3600, '/');}?>

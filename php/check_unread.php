@@ -1,0 +1,1 @@
+<?php if(isset($_POST['sender']) && isset($_POST['reciever'])){require "connect.php";$sender = $_POST['sender'];$reciever = $_POST['reciever'];$query = "SELECT * FROM `messege` WHERE (`sender_id` = '$sender' AND `reciever_id` = '$reciever' AND `un_read` = 'yes')";$run = mysqli_query($connect,$query);if(mysqli_num_rows($run)>0){echo "1";}else{echo"0";}} ?>

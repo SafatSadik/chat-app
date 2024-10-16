@@ -1,0 +1,1 @@
+<?php echo "<input type='file' name='file' class='file' hidden>";echo "<img src='image/plus.png' class='plus_img' >"; ?>
